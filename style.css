@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    background-color: black;
+}
+h1{
+    margin-bottom: 0.2rem;
+}
+.box{
+    width: 750px;
+    height: 750px;
+    border-radius: 4em;
+    border: 6px solid white;
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    padding: 1rem;
+    background-color: black;
+    color: white;
+}
+.text{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+}
+.container {
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.container .line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn {
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid white;
+    margin: 2.5rem;
+    cursor: pointer;
+    transition: 0.1s ease-in;
+}
+.btn:hover{
+    transform: translateY(-8px);
+}
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.grey {
+    background-color: grey;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.flashBtn {
+    background-color: white;
+}
+
+.userFlash {
+    background-color: aquamarine;
+}
